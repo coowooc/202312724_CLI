@@ -1,0 +1,20 @@
+{
+    "name": "cli-program",
+    "version": "1.0.0",
+    "description": "CLI program for generating templates",
+    "main": "index.js",
+    "bin": {
+      "mycli": "./index.js"
+    },
+    "scripts": {
+      "start": "node index.js"
+    },
+    "author": "chaeheejin",
+    "license": "MIT",
+    "dependencies": {
+      "commander": "^7.4.0",
+      "inquirer": "^8.1.2",
+      "chalk": "^4.1.2"
+    }
+  }
+  
